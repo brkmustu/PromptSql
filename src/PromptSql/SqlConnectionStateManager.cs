@@ -11,13 +11,13 @@ namespace PromptSql
             _sqlConnection = sqlConnection;
         }
 
-        public void OpenConnection()
+        protected void OpenConnection()
         {
             if (_sqlConnection.State == System.Data.ConnectionState.Closed)
                 _sqlConnection.Open();
         }
 
-        public void CloseConnection()
+        protected void CloseConnection()
         {
             if (_sqlConnection.State == System.Data.ConnectionState.Closed)
                 _sqlConnection.Open();
