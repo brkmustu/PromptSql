@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
 
-namespace SqlTools
+namespace PromptSql
 {
     /// <summary>
     /// sql query operations

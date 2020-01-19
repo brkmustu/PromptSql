@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using SqlTools.Tests.TestModels;
+using PromptSql.Tests.TestModels;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 
-namespace SqlTools.Tests
+namespace PromptSql.Tests
 {
     [TestClass]
     public class QueryOperationTests : TestBase

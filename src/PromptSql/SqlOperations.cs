@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SqlTools
+namespace PromptSql
 {
     public class SqlOperations<TSqlToolsModule> : ISqlOperations
         where TSqlToolsModule : SqlToolsModule, new()

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SqlTools
+namespace PromptSql
 {
     public interface ISqlOperations
     {

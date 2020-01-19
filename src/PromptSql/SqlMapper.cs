@@ -2,7 +2,7 @@
 using System.Data;
 using System.Diagnostics;
 
-namespace SqlTools
+namespace PromptSql
 {
     public abstract class SqlMapper<TResult> : ISqlMapper<TResult>
     {

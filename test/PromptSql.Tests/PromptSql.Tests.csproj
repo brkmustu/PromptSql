@@ -8,8 +8,8 @@
     <ProjectGuid>{7E111A87-D9FA-4464-87E2-89C1BF2EBAE8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SqlTools.Tests</RootNamespace>
-    <AssemblyName>SqlTools.Tests</AssemblyName>
+    <RootNamespace>PromptSql.Tests</RootNamespace>
+    <AssemblyName>PromptSql.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -71,9 +71,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\SqlTools\SqlTools.csproj">
-      <Project>{cc7e576c-f4de-471c-b1d0-ae2a41ea5249}</Project>
-      <Name>SqlTools</Name>
+    <ProjectReference Include="..\..\src\PromptSql\PromptSql.csproj">
+      <Project>{88b2095d-5dc8-4785-9582-efb2a51ed2c3}</Project>
+      <Name>PromptSql</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

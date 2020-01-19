@@ -1,4 +1,4 @@
-﻿namespace SqlTools
+﻿namespace PromptSql
 {
     public abstract class SqlToolsModule
     {

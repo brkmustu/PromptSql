@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 
-namespace SqlTools
+namespace PromptSql
 {
     public interface ISqlMapper<TResult>
     {

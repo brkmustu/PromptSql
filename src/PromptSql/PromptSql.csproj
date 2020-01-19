@@ -4,15 +4,19 @@
     <TargetFrameworks>net452;net46;net472;net48</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.0.1</Version>
-    <Copyright>SqlTools 2020</Copyright>
+    <Copyright>PromptSql 2020</Copyright>
     <Authors>M. Burak Muştu</Authors>
     <PackageReleaseNotes>This library was developed to present your basic ado net operations with a simple fluent interface.</PackageReleaseNotes>
     <Description>This library was developed to present your basic ado net operations with a simple fluent interface.</Description>
-    <PackageTags>adonet fluentinterface basicsql sqltools</PackageTags>
+    <PackageTags>adonet fluentinterface basicsql sqltools PromptSql</PackageTags>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>SqlTools.snk</AssemblyOriginatorKeyFile>
-    <RepositoryUrl>https://github.com/brkmustu/SqlTools</RepositoryUrl>
+    <AssemblyOriginatorKeyFile>PromptSql.snk</AssemblyOriginatorKeyFile>
+    <RepositoryUrl>https://github.com/brkmustu/PromptSql</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageId>PromptSql</PackageId>
+    <Product>PromptSql</Product>
+    <AssemblyName>PromptSql</AssemblyName>
+    <RootNamespace>PromptSql</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

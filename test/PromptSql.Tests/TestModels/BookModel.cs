@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SqlTools.Tests.TestModels
+namespace PromptSql.Tests.TestModels
 {
     public class BookModel
     {

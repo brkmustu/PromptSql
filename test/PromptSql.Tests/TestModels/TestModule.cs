@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SqlTools.Tests.TestModels
+namespace PromptSql.Tests.TestModels
 {
     public class TestModule : SqlToolsModule
     {

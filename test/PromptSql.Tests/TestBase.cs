@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace SqlTools.Tests
+namespace PromptSql.Tests
 {
     public class TestBase
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 
-namespace SqlTools.Tests.TestModels
+namespace PromptSql.Tests.TestModels
 {
     public class MemberModelMapper : SqlMapper<MemberModel>
     {
