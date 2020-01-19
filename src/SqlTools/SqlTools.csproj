@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net452;net46;net472;net48</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Copyright>SqlTools 2020</Copyright>
+    <Authors>M. Burak Muştu</Authors>
+    <PackageReleaseNotes>This library was developed to present your basic ado net operations with a simple fluent interface.</PackageReleaseNotes>
+    <Description>This library was developed to present your basic ado net operations with a simple fluent interface.</Description>
+    <PackageTags>adonet fluentinterface basicsql sqltools</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SqlTools.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+
+</Project>
