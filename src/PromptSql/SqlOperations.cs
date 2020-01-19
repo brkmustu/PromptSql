@@ -2,12 +2,12 @@
 
 namespace PromptSql
 {
-    public class SqlOperations<TSqlToolsModule> : ISqlOperations
-        where TSqlToolsModule : SqlToolsModule, new()
+    public class SqlOperations<TModule> : ISqlOperations
+        where TModule : PromptSqlModule, new()
     {
         public SqlOptions BeginOperation(Func<BeginOperation, SqlOptions> option)
         {
-            string connectionString = System.Activator.CreateInstance<TSqlToolsModule>().GetConnectionString();
+            string connectionString = Activator.CreateInstance<TModule>().GetConnectionString();
             return option(new BeginOperation(connectionString));
         }
     }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PromptSql.Tests.TestModels
 {
-    public class TestModule : SqlToolsModule
+    public class TestModule : PromptSqlModule
     {
         public override string GetConnectionString()
         {

@@ -17,6 +17,7 @@
     <Product>PromptSql</Product>
     <AssemblyName>PromptSql</AssemblyName>
     <RootNamespace>PromptSql</RootNamespace>
+    <PackageProjectUrl>https://github.com/brkmustu/PromptSql</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

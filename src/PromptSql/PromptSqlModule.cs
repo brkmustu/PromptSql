@@ -1,6 +1,6 @@
 ﻿namespace PromptSql
 {
-    public abstract class SqlToolsModule
+    public abstract class PromptSqlModule
     {
         public abstract string GetConnectionString();
     }
