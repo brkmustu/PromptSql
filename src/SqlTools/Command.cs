@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.SqlClient;
 
 namespace SqlTools
 {
     /// <summary>
     /// sql command operations
     /// </summary>
-    public class Command
+    public class Command : SqlConnectionStateManager
     {
         private SqlConnection _sqlConnection;
         private SqlCommand _sqlCommand;
 
         public Command(SqlConnection sqlConnection, SqlCommand sqlCommand)
+            : base(ref sqlConnection)
         {
             _sqlConnection = sqlConnection;
             _sqlCommand = sqlCommand;
@@ -23,13 +19,13 @@ namespace SqlTools
 
         public int ExecuteNonQuery()
         {
-            this._sqlConnection.Open();
+            OpenConnection();
 
             this._sqlCommand.ExecuteNonQuery();
 
             int executinRowCount = this._sqlCommand.ExecuteNonQuery();
 
-            this._sqlConnection.Close();
+            CloseConnection();
 
             return executinRowCount;
         }

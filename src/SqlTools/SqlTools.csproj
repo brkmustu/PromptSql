@@ -11,6 +11,8 @@
     <PackageTags>adonet fluentinterface basicsql sqltools</PackageTags>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>SqlTools.snk</AssemblyOriginatorKeyFile>
+    <RepositoryUrl>https://github.com/brkmustu/SqlTools</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
