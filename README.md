@@ -37,6 +37,8 @@ get the model as below
         public DateTime? CreateDate { get; set; }
 
     }
+    
+sqlmapper for this model should be as follows
 
     public class BookMapper : SqlMapper<Book>
     {
