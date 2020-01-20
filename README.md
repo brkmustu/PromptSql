@@ -60,6 +60,7 @@ now we are ready to query
             var data = new SqlOperations<SqlModule>()
                 .BeginOperation(x => x.CreateOptions(query))
                 .GetQuery<Book, BookMapper>()
+                .FillData()
                 .GetData();
                 
 that's all
